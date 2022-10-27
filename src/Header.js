@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import SearchIcon from "@material-ui/icons/Search";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import LanguageIcon from "@material-ui/icons/Language";
-import {Avatar} from "@material-ui/core";
+import {Avatar, Tooltip} from "@material-ui/core";
 
 function Header() {
+  const [searchQuery, setSearchQuery] =  useState("")
   return (
     <div className='header'>
         <img 
@@ -16,7 +17,9 @@ function Header() {
 
 
         <div className='header_center'>
-        <input type="text" />
+        <Tooltip title="Search holiday home worldwide" placement="top-end" >
+        <input type="text" value={searchQuery} onChange={(event)=>setSearchQuery(event.target.value)} />
+        </Tooltip>
         <SearchIcon />
         </div>
 

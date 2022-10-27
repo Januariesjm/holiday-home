@@ -28,7 +28,12 @@
 
 .header_center >input {
     border: none;
-    width: 250px;
+    outline: none;
+    width: 250px;}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
 }
 
 .header_right {
