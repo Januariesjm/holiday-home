@@ -11,7 +11,7 @@
 
 .header_icon {
     object-fit: contain;
-    height: 30px;
+    height: 100px;
     margin-left: 20px;
 }
 
@@ -29,6 +29,8 @@
 .header_center >input {
     border: none;
     outline: none;
+    padding: 10px;
+    outline-width: 0;
     width: 250px;}
 .tooltip {
     position: relative;
@@ -40,4 +42,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
 }
