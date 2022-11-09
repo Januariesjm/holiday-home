@@ -1,3 +1,5 @@
+This project Involves the biulding of a an online booking site for rooms, houses, homes, travel cars and restuarnts for your holiday.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
