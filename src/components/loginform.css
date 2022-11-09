@@ -1,0 +1,69 @@
+.loginform {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    height: 70vh;
+}
+
+.formtext {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.formtext > h1 {
+ font-size: 40px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 700;
+ color: rgb(53, 42, 213);
+}
+
+ .formtext > p { 
+ font-size: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form ul {
+    list-style: none;
+    padding: 20px;
+}
+
+select {
+    padding:10px;
+    width: 310px;
+    border: 1px solid blue;
+    border-radius: 30px;
+    margin: 10px;
+    background-color: white;
+}
+
+.phonenumber {
+    padding:10px;
+    width: 300px;
+    border: 1px solid blue;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.phonenumber > input:focus {
+    outline-width: 0;
+}
+
+.submit {
+    padding:10px;
+    width: 320px;
+    border: 1px solid blue;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 255); 
+}
+
+

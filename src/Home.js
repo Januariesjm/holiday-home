@@ -1,11 +1,22 @@
 import React from 'react';
 import './Home.css';
 import Banner from './Banner';
-import Card from './Card'
+import Card from './Card';
+import {Button} from '@material-ui/core'
 
 function Home() {
   return (
     <div className='home'>
+      <Button variant="outlined">Beach</Button>
+      <Button variant="outlined">BeachFront</Button>
+      <Button variant="outlined">Lake</Button>
+      <Button variant="outlined">Golfing</Button>
+      <Button variant="outlined">Amazing Pools</Button>
+      <Button variant="outlined">Private rooms</Button>
+      <Button variant="outlined">Cabins</Button>
+      <Button variant="outlined">National Parks</Button>
+      <Button variant="outlined">Waterfalls</Button>
+      <Button variant="outlined">Fantastic views</Button>
         <Banner />
 
         <div className='home_section'>

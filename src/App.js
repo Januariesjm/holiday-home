@@ -1,30 +1,27 @@
-import './App.css';
-import Home from './Home';
-import Header from './Header';
-import Footer from './Footer';
-import SearchPage from './SearchPage';
-import {BrowserRouter as Router, Navigate, Route } from "react-router-dom";
+import React from "react";
+import "./App.css";
+import Home from "./Home";
+import Header from "./Header";
+import Footer from "./Footer";
+import SearchPage from "./SearchPage";
+import LoginForm from "./components/loginform";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-
-    //BEM
+    // BEM
     <div className="app">
-     <Router>
+      <Router>
       <Header />
-
-    <Navigate>
-      <Route path="/search">
-      <SearchPage />
-    </Route>
-    <Route path="/">
-      <Home />
-    </Route>
-
-    </Navigate>
+    
+        <Routes>
+          <Route path="/search" element={<SearchPage />} />
+          <Route path="/loginform" element={<LoginForm />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
       <Footer />
-     </Router>
-  
     </div>
   );
 }
