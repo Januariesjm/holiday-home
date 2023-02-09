@@ -4,9 +4,10 @@ import Home from "./Home";
 import Header from "./Header";
 import Footer from "./Footer";
 import SearchPage from "./SearchPage";
-import LoginForm from "./components/loginform";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Register from "./pages/register/Register";
+import Login from "./pages/login/Login";
 
 function App() {
   return (
@@ -17,11 +18,13 @@ function App() {
     
         <Routes>
           <Route path="/search" element={<SearchPage />} />
-          <Route path="/loginform" element={<LoginForm />} />
+          <Route path="/register/Register" element={<Register />} />
+          <Route path="/login/Login" element={<Login />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>
       <Footer />
+      
     </div>
   );
 }

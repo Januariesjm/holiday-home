@@ -30,7 +30,7 @@ function Header() {
             <Button onClick={() => navigate('./search')}>Become a host</Button>
             <LanguageIcon />
             <ExpandMoreIcon />
-            <Link to="/loginform"><Avatar />
+            <Link to="/register/Register"><Avatar />
             Log in
             </Link>
         </div>

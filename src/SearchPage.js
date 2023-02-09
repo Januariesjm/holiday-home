@@ -75,7 +75,7 @@ function SearchPage() {
                 img="https://image.insider.com/585029a0dd0895bc548b4b8b?width=750&format=jpeg&auto=webp"
                 location="Private room in center of London"
                 title="5 Star Luxury Apartment"
-                description="3 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine"
+                description="3 guest · 1 bedroom · 1 bed c· 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine"
                 star={3.85}
                 price="£90 / night"
                 total="£650 total"
